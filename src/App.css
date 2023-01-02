@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #E3D3E4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::placeholder {
+    color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+    height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
 }
 
-.App-link {
-  color: #61dafb;
+.about-link:hover {
+    transition: all 0.3s ease 0s;
+    color: #0088a9;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    margin-top: auto;
+}
+
+.body {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.about {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.description {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #DC758F;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 30px 10%;
+}
+
+.description2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #DC758F;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 30px 10%;
+}
+
+input {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: pink;
+    margin-bottom: 5px;
+}
+
+button {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: pink;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.photo-collection {
+    display: grid;
+    place-items: center;
+}
+
+img {
+    opacity: 0.5;
+    height: 300px;
+    width: 300px;
+
 }
