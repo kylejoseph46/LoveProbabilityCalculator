@@ -1,6 +1,6 @@
-Implemented an interface that dynamically displays the love probability for two people
-Utilized Axios to retrieve and parse data from the Love Calculator API and send the data to the frontend
-Leveraged react router to create a SPA experience, allowing for a seamless user experience without page reloads
+Implemented an interface that dynamically displays the love probability for two people.
+Utilized Axios to retrieve and parse data from the Love Calculator API and send the data to the frontend.
+Leveraged react router to create a SPA experience, allowing for a seamless user experience without page reloads.
 Maintained the backend using Express to communicate with the frontend and obtain the URL parameters.
 
 
